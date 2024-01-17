@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "tft-roller-client"
+		},
+		{
+			"path": "tft-roller-server"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"tft-roller-client": true,
+			"tft-roller-server": true
+		}
+	}
+}

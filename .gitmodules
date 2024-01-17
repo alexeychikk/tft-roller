@@ -1,0 +1,6 @@
+[submodule "tft-roller-client"]
+	path = tft-roller-client
+	url = https://github.com/alexeychikk/tft-roller-client.git
+[submodule "tft-roller-server"]
+	path = tft-roller-server
+	url = https://github.com/alexeychikk/tft-roller-server.git
