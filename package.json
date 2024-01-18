@@ -1,0 +1,18 @@
+{
+	"name": "tft-roller",
+	"version": "0.0.2",
+	"engines": {
+		"node": ">= 20"
+	},
+	"scripts": {
+		"start": "cd ./tft-roller-server && npm run start:prod",
+		"build": "run-p build:*",
+		"build:client": "cd ./tft-roller-client && npm run build",
+		"build:server": "cd ./tft-roller-server && npm run build",
+		"fix": "git submodule foreach \"npm run fix\"",
+		"postinstall": "git submodule foreach \"npm ci\""
+	},
+	"devDependencies": {
+		"npm-run-all": "^4.1.5"
+	}
+}

@@ -17,7 +17,9 @@
 		"files.exclude": {
 			"tft-roller-client": true,
 			"tft-roller-server": true,
-			"tft-roller-shared": true
-		}
+			"tft-roller-shared": true,
+			"vite.config.ts.timestamp-*": true
+		},
+		"typescript.tsdk": "tft-roller-client\\node_modules\\typescript\\lib"
 	}
 }
