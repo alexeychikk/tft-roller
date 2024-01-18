@@ -4,3 +4,6 @@
 [submodule "tft-roller-server"]
 	path = tft-roller-server
 	url = https://github.com/alexeychikk/tft-roller-server.git
+[submodule "tft-roller-shared"]
+	path = tft-roller-shared
+	url = https://github.com/alexeychikk/tft-roller-shared.git

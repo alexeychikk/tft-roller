@@ -7,13 +7,17 @@
 			"path": "tft-roller-server"
 		},
 		{
+			"path": "tft-roller-shared"
+		},
+		{
 			"path": "."
 		}
 	],
 	"settings": {
 		"files.exclude": {
 			"tft-roller-client": true,
-			"tft-roller-server": true
+			"tft-roller-server": true,
+			"tft-roller-shared": true
 		}
 	}
 }
